@@ -1,0 +1,14 @@
+[http]
+	    sslVerify = false
+[alias]
+	    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[diff]
+	    tool = meld
+[difftool "meld"]
+        path = meld
+[merge]
+	    tool = meld
+[mergetool "meld"]
+        path = meld
+[credential]
+        helper = cache --timeout=31536000
